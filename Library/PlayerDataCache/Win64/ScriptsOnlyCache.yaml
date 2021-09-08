@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ChangeSceneWithButton
     - MainMenu
+    - SoundOnMouseClick
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -79,6 +80,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3350}
     - Class: 114
       Script: {instanceID: 3648}
+    - Class: 114
+      Script: {instanceID: 22722}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -140,6 +143,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3350}
     - Class: 114
       Script: {instanceID: 5048}
+    - Class: 114
+      Script: {instanceID: 22722}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -199,6 +204,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3238}
     - Class: 114
       Script: {instanceID: 3350}
+    - Class: 114
+      Script: {instanceID: 22722}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -744,9 +751,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundOnMouseClick
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainScene.unity
   - Assets/Scenes/PlayScene.unity
   - Assets/Scenes/AboutScene.unity
-  playerPath: C:/Users/rayjynx/Documents/build-a-pc-unity/build-a-pc-export-test/build-a-pc.exe
+  playerPath: C:/Users/rayjynx/Documents/build-a-pc-unity/build-a-pc-export-0.0.1(hotfix)/build-a-pc.exe

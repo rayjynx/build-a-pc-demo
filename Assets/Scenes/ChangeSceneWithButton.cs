@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneWithButton : MonoBehaviour
 {
- 
-    public void LoadScene(string sceneName)
+
+    public void LoadSceneAsync(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadSceneAsync(sceneName);
     }
 
 
