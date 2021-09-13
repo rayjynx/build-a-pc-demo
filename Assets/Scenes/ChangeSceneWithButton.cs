@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 public class ChangeSceneWithButton : MonoBehaviour
 {
 
-    public void LoadSceneAsync(string sceneName)
+    public void LoadScene(string sceneName)
     {
-        SceneManager.LoadSceneAsync(sceneName);
+        SceneManager.LoadScene(sceneName);
     }
 
 

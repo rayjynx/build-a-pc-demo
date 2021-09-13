@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
+    // exit button script
     public void ExitButton()
     {
         Application.Quit();
